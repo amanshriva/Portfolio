@@ -1,0 +1,19 @@
+@import "path/to/poppins.otf";
+*{
+
+    margin:0;  
+    padding :0;
+    box-sizing : border-box; 
+    font-family: 'Poppins',sans-serif;
+} 
+.banner{
+    position:relative;
+    min-height:  100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+  /*  background:url(image/mypic1.jpg); */
+    background-size: cover;
+    background-position: right center;
+}
